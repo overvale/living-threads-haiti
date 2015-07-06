@@ -21,6 +21,7 @@ div#masthead {
 div#top {
 	margin-bottom: 30px;
 	position: relative;
+	font-size: 1.1em;
 }
 
 
@@ -62,7 +63,7 @@ ul#nav {
 
 ul#nav li {
 	display:inline;
-	margin-right:1em
+	margin-right:2em
 }
 
 
@@ -85,10 +86,8 @@ h1 a:hover {background: none;}
 /* ORDERING PAGE
 ------------------------------------- */
 
-
 div#price-grid {
 	font:1.4em Georgia;
-	
 	border-bottom: 1px solid #333;
 	padding-bottom: 10px;
 	width: 300px;
@@ -99,7 +98,6 @@ div#price-grid span.size, div#price-grid span.price {
 }
 div#price-grid span.size {margin-left:1em;}
 div#price-grid span.price {margin-left: 1em;}
-
 
 body#order div#main {
 	position:relative;
@@ -112,15 +110,21 @@ div#order-info {
 img#order-img {
 	position: absolute;
 	right:0;
-	
 	padding: 3px;
 	background: #1a1a1e;
 	border:1px solid #333;
 
 }
 
+p#order-form {
+	margin:2.5em 0;
+}
 
-
+p#order-form a {
+	font-size: 1.2em;
+	padding: .5em;
+	border: 1px solid #333;
+}
 
 /* LINENS PAGE
 ------------------------------------- */
@@ -128,7 +132,6 @@ img#order-img {
 
 div#box-wrap {
 	position:relative;
-	height:760px;
 }
 img#three-linens {
 	position: absolute;
@@ -154,6 +157,18 @@ p.caption {
 	margin: .5em 0 4px 0;
 }
 
+div.img-box.wide {
+    margin-bottom:105px;
+}
+
+img#stole {
+	padding: 3px;
+	background: #1a1a1e;
+	border:1px solid #333;
+    float:right;
+    margin-right:19px;
+    margin-left:15px;
+}
 
 /* INDEX PAGE 
 ------------------------------------- */
