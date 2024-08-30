@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 body {
 	font-family: "Lucida Sans", "Lucida Grande", Arial, sans-serif;
 	font-size: 80%;
@@ -24,19 +26,17 @@ div#top {
 	font-size: 1.1em;
 }
 
-
-h1 {
+#masthead h1 {
 	font-style: normal;
-	font-weight: normal;
 	margin-top: 30px;
 }
 h1, div#masthead p.tag {
-	font-family: "GillSans-Light";
-	letter-spacing: .05em;
+	font-family: "Lato";
+	font-weight: 300;
 }
 div#masthead p.tag {
 	position:absolute;
-	top:-10px;
+	top: -5px;
 	right:0;
 }
 div#masthead p.log {
@@ -137,7 +137,7 @@ img#three-linens {
 	position: absolute;
 	right: 20px;
 	top:0px;
-	
+
 	padding: 3px;
 	background: #1a1a1e;
 	border:1px solid #333;
@@ -148,7 +148,7 @@ div.img-box {
 	margin: 0 0 15px 25px;
 }
 div.img-box div.img {
-	background-color: #aaa;	
+	background-color: #aaa;
 	height:150px;
 	width:150px;
 }
@@ -170,7 +170,7 @@ img#stole {
     margin-left:15px;
 }
 
-/* INDEX PAGE 
+/* INDEX PAGE
 ------------------------------------- */
 
 body#index div#main img {
